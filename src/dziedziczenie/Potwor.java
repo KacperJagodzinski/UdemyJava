@@ -1,7 +1,7 @@
 package dziedziczenie;
 
 public class Potwor {
-    public double predkoscChodzenia = 10;
+    protected double predkoscChodzenia = 10;
     public double healthPoints;
 
     public void atakuj(){

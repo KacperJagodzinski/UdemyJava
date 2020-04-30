@@ -7,7 +7,7 @@ public class Dziedziczenie {
 
     public static void main(String[] args) {
         Potwor potwor = new Potwor(10,100);
-        System.out.println(potwor.predkoscChodzenia);
+        //System.out.println(potwor.predkoscChodzenia);
 
         Szkielet szkielet = new Szkielet(5,50,"Łuk");
         szkielet.atakuj();
@@ -20,6 +20,11 @@ public class Dziedziczenie {
 
         Potwor szk = new Szkielet(10,100,"Łuk");
         szk.atakuj();
+
+        //potwor.predkoscChodzenia
+        //protected
+
+
 
 
     }
