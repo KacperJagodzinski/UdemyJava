@@ -16,9 +16,14 @@ public class TreningKlas {
         for (int i = 0; i < osoba.length ; i++) {
             if(osoba[i] instanceof Osoba)
                 osoba[i].opis();
+
             else
                 break;
         }
+        //osoba[1].pracuj
+        //rzutowanie w dół
+        if(osoba[0] instanceof Pracownik)
+            ((Pracownik)osoba[1]).pracuj();
 
 
     }
@@ -45,6 +50,10 @@ class Pracownik extends Osoba{
     void opis() {
         System.out.println("Jestem pracownikiem");
 
+    }
+
+    void pracuj(){
+        System.out.println("Ja pracuje");
     }
 }
 
