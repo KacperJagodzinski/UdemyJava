@@ -6,7 +6,7 @@ public class Dziedziczenie {
 
 
     public static void main(String[] args) {
-        Potwor potwor = new Potwor(10,100);
+        ///Potwor potwor = new Potwor(10,100);
         //System.out.println(potwor.predkoscChodzenia);
 
         Szkielet szkielet = new Szkielet(5,50,"Łuk");

@@ -1,6 +1,6 @@
 package dziedziczenie;
 
-public class Potwor {
+abstract public class Potwor {
     protected double predkoscChodzenia = 10;
     public double healthPoints;
 
@@ -8,6 +8,8 @@ public class Potwor {
         //implementacja metody potwór
         System.out.println("atak");
     }
+
+    abstract void opis();
 
     public Potwor(){}
 

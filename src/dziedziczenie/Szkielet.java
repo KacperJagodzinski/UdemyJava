@@ -10,6 +10,11 @@ public class Szkielet extends Potwor{
         System.out.println("atak szkieleta");
     }
 
+    @Override
+    void opis() {
+
+    }
+
     public Szkielet(){}
     public Szkielet(double predkoscChodzenia, double healthPoints,String typBroni){
         super(predkoscChodzenia,healthPoints);
