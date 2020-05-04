@@ -10,6 +10,10 @@ import java.util.StringTokenizer;
 
 public class Towar {
 
+    //aby osiagnac swobodny dostep do pliku trzeba z gory ustalic ilosc bajtow
+    //przeznaczonych do przechowywania danych
+    //String Buffer o ustalonej długości (append)
+
     private double cena;
     private String nazwa;
     private Date dataWydania;
